@@ -12,7 +12,7 @@ int backgroundASCII = ' ';
 int distanciaCamera = 100;
 float K1 = 40;
 
-float incrementarVelocidade = 0.6;
+float incrementarVelocidade = 1;
 
 float x, y, z;
 float ooz;
@@ -76,7 +76,7 @@ int main() {
 
         A += 0.005;
         B += 0.005;
-        usleep(1000);
+        usleep(500);
     }
     return 0; 
 }
